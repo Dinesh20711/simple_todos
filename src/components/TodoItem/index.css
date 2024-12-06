@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  width: 80%;
+}
+
+.title-section {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.delete-btn{
+  background-color: white;
+  border:1px solid #ff0b37;
+  border-radius: 3px;
+  padding:5px;
+  color: #ff0b37;
+  width:200px;
+  margin:5px;
+}
